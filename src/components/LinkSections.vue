@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { computed } from 'vue'
 import { sections, type Link } from '../data/sections'
 
 const groupByTag = (links: Link[]) => {

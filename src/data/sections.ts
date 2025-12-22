@@ -597,7 +597,12 @@ export const sections: LinkSection[] = [
       { name: '硕博人才网', url: 'http://www.shuobo114.com/', desc: '硕博人才招聘信息', group: '职业发展' },
       { name: '硕博招聘网', url: 'http://www.shuobozhaopin.com/', desc: '硕博职位招聘平台', group: '职业发展' },
       { name: '硕博英才网', url: 'http://www.shuobojob.com/', desc: '硕博英才招聘平台', group: '职业发展' },
-      { name: '猎聘网', url: 'https://www.liepin.com/?mscid=s_00_pz1', desc: '高端人才招聘平台', group: '职业发展' }
+      { name: '猎聘网', url: 'https://www.liepin.com/?mscid=s_00_pz1', desc: '高端人才招聘平台', group: '职业发展' },
+      { name: 'JobsDB香港', url: 'https://hk.jobsdb.com/', desc: '香港最大的招聘网站，提供全职兼职职位', group: '职业发展' },
+      { name: 'CTgoodjobs', url: 'https://www.ctgoodjobs.hk/', desc: '香港专业招聘网站，专注科技与管理职位', group: '职业发展' },
+      { name: 'Indeed香港', url: 'https://hk.indeed.com/', desc: '全球知名招聘平台香港站', group: '职业发展' },
+      { name: 'Hays香港', url: 'https://www.hays.com.hk/', desc: '专业招聘咨询公司香港站', group: '职业发展' },
+      { name: '香港政府招聘', url: 'https://www.jobs.gov.hk/', desc: '香港特区政府职位招聘平台', group: '职业发展' }
     ]
   }
 ]

@@ -52,6 +52,18 @@ export const sections: LinkSection[] = [
         group: '文献检索'
       },
       {
+        name: 'NASA技术报告',
+        url: 'http://lsda.jsc.nasa.gov/',
+        desc: 'NASA技术报告与文献资源',
+        group: '文献检索'
+      },
+      {
+        name: '开源期刊',
+        url: 'http://www.oalib.com/',
+        desc: '开放获取学术期刊平台',
+        group: '文献检索'
+      },
+      {
         name: 'Analytical Chemistry',
         url: 'https://pubs.acs.org/journal/ancham',
         desc: '分析化学顶刊',
@@ -176,6 +188,84 @@ export const sections: LinkSection[] = [
         url: 'https://pubmed.ncbi.nlm.nih.gov/',
         desc: '生命科学与医学文献检索',
         group: '收录检索'
+      },
+      {
+        name: '中国专利',
+        url: 'https://www.cnipa.gov.cn/',
+        desc: '国家知识产权局专利查询平台',
+        group: '专利检索'
+      },
+      {
+        name: '谷歌专利',
+        url: 'https://www.google.com.hk/?tbm=pts',
+        desc: 'Google专利搜索与查询',
+        group: '专利检索'
+      },
+      {
+        name: '欧洲专利',
+        url: 'http://www.epo.org/',
+        desc: '欧洲专利局官方网站',
+        group: '专利检索'
+      },
+      {
+        name: '美国专利',
+        url: 'https://www.uspto.gov/',
+        desc: '美国专利商标局官方网站',
+        group: '专利检索'
+      },
+      {
+        name: '专利在线',
+        url: 'http://www.freepatentsonline.com/',
+        desc: '免费专利全文下载平台',
+        group: '专利检索'
+      },
+      {
+        name: '各国专利',
+        url: 'http://www.delphion.com/',
+        desc: '世界各国专利数据库查询',
+        group: '专利检索'
+      },
+      {
+        name: '加拿大专利',
+        url: 'http://www.ic.gc.ca/opic-cipo/cpd/eng/search/basic.html?wt_src=cipo-patent-main&wt_cxt=toptask',
+        desc: '加拿大知识产权局专利搜索',
+        group: '专利检索'
+      },
+      {
+        name: '澳洲专利',
+        url: 'https://www.ipaustralia.gov.au/',
+        desc: '澳大利亚知识产权局专利平台',
+        group: '专利检索'
+      },
+      {
+        name: '日本专利',
+        url: 'http://www.jpo.go.jp/',
+        desc: '日本特许厅专利局',
+        group: '专利检索'
+      },
+      {
+        name: '韩国专利',
+        url: 'http://eng.kipris.or.kr/enghome/main.jsp',
+        desc: '韩国知识产权局专利检索',
+        group: '专利检索'
+      },
+      {
+        name: '印度专利',
+        url: 'http://www.indianpatents.org.in/',
+        desc: '印度专利数据库',
+        group: '专利检索'
+      },
+      {
+        name: '香港专利',
+        url: 'http://ipsearch.ipd.gov.hk/',
+        desc: '香港知识产权署专利搜索',
+        group: '专利检索'
+      },
+      {
+        name: '专利下载',
+        url: 'http://www.drugfuture.com/cnpat/cn_patent.asp',
+        desc: '中国专利免费下载平台',
+        group: '专利检索'
       }
     ]
   },
@@ -282,6 +372,108 @@ export const sections: LinkSection[] = [
         url: 'https://hitran.org/',
         desc: '高分辨率分子光谱数据库',
         group: '谱线与等离子体数据库'
+      },
+      {
+        name: 'NIST标准物质',
+        url: 'https://www-s.nist.gov/srmors/index.cfm',
+        desc: 'NIST标准参考材料与标样',
+        group: '耗材标样'
+      },
+      {
+        name: '国际标物',
+        url: 'http://www.brammerstandard.com/',
+        desc: 'Brammer标准物质国际供应商',
+        group: '耗材标样'
+      },
+      {
+        name: '国家标物',
+        url: 'http://www.bzwzw.com/index.php',
+        desc: '国家标准物质网',
+        group: '耗材标样'
+      },
+      {
+        name: '中国标物',
+        url: 'http://www.gbw114.com/index.html',
+        desc: '中国标准物质网',
+        group: '耗材标样'
+      },
+      {
+        name: '坛磨质检标物',
+        url: 'http://www.gbw-china.com/',
+        desc: '坛墨质检标准物质中心',
+        group: '耗材标样'
+      },
+      {
+        name: '钢研纳克标物',
+        url: 'http://www.ncscrm.com/',
+        desc: '钢研纳克标准物质网',
+        group: '耗材标样'
+      },
+      {
+        name: '标物共享平台',
+        url: 'http://www.ncrm.org.cn/',
+        desc: '国家标准物质资源共享平台',
+        group: '耗材标样'
+      },
+      {
+        name: '中华标物',
+        url: 'http://www.gbw365.com/',
+        desc: '中华标准物质网',
+        group: '耗材标样'
+      },
+      {
+        name: '北京标物',
+        url: 'http://www.biaowu.com/',
+        desc: '北京标准物质网',
+        group: '耗材标样'
+      },
+      {
+        name: '华南标物',
+        url: 'http://www.gdgbw.com/',
+        desc: '华南标准物质网',
+        group: '耗材标样'
+      },
+      {
+        name: '国家标准物质中心',
+        url: 'http://www.114gbw.com/',
+        desc: '国家标准物质中心',
+        group: '耗材标样'
+      },
+      {
+        name: '卓立汉光',
+        url: 'http://www.zolix.com.cn/prod3con_371_401.html',
+        desc: '卓立汉光光学元件与耗材',
+        group: '耗材标样'
+      },
+      {
+        name: '昊量光电',
+        url: 'http://www.auniontech.com',
+        desc: '昊量光电光学仪器与耗材',
+        group: '耗材标样'
+      },
+      {
+        name: 'Laser-export',
+        url: 'http://www.laser-export.com/prod/ser.html',
+        desc: '激光产品与光学耗材出口商',
+        group: '耗材标样'
+      },
+      {
+        name: '优光科技',
+        url: 'http://www.u-optic.com',
+        desc: '武汉优光科技光学元件',
+        group: '耗材标样'
+      },
+      {
+        name: '仪器信息网',
+        url: 'http://www.instrument.com.cn/',
+        desc: '仪器信息与耗材综合平台',
+        group: '耗材标样'
+      },
+      {
+        name: '化学城',
+        url: 'http://www.chemtown.cn/',
+        desc: '化学试剂与耗材采购平台',
+        group: '耗材标样'
       }
     ]
   },
@@ -313,7 +505,13 @@ export const sections: LinkSection[] = [
       { name: '美国光学工程学会（SPIE）', url: 'https://spie.org/', desc: '光学工程与光子学学会', group: '学会与组织' },
       { name: '美国激光学会（LIA）', url: 'https://www.lia.org/', desc: '激光安全与应用相关学会', group: '学会与组织' },
       { name: 'SCIX', url: 'https://www.scixconference.org/', desc: '国际光谱与分析化学会议', group: '会议与活动' },
-      { name: '中国学术会议在线', url: 'http://www.meeting.edu.cn/', desc: '国内学术会议汇总平台', group: '会议与活动' }
+      { name: '中国学术会议在线', url: 'http://www.meeting.edu.cn/', desc: '国内学术会议汇总平台', group: '会议与活动' },
+      { name: '光谱网', url: 'http://www.sinospectroscopy.org.cn/default.php', desc: '中国光谱界专家学者交流平台', group: '社区论坛' },
+      { name: '博研论坛', url: 'http://bbs.myboyan.com/', desc: '学术门户站论坛', group: '社区论坛' },
+      { name: '科研速递', url: 'http://www.expaper.cn/', desc: '科研信息与论文速递平台', group: '社区论坛' },
+      { name: '科研动力', url: 'https://www.howsci.com/', desc: '科研方法与动力平台', group: '社区论坛' },
+      { name: '光行天下', url: 'http://www.opticsky.cn/', desc: '光学技术交流平台', group: '社区论坛' },
+      { name: '芋头网', url: 'http://yutou.org/forum.php', desc: '学术交流与资源分享论坛', group: '社区论坛' }
     ]
   },
 
@@ -376,15 +574,32 @@ export const sections: LinkSection[] = [
       { name: '星际视觉', url: 'https://wangyasai.github.io/Stars-Emmision/', desc: '有趣的星空可视化实验', group: '科研神器与灵感' },
       { name: 'Perlin 噪声可视化', url: 'https://wangyasai.github.io/Perlin-Noise/', desc: '噪声与纹理可视化', group: '科研神器与灵感' },
       { name: '镜像炫光', url: 'http://weavesilk.com/', desc: '镜像炫光艺术，可用于灵感与可视化', group: '科研神器与灵感' },
+      { name: 'Stardock Fences', url: 'http://rj.baidu.com/soft/detail/13334.html', desc: '桌面图标分类组织工具', group: '科研神器与灵感' },
+      { name: 'Rainlandar', url: 'https://baike.so.com/doc/7783340-8057435.html', desc: '桌面日历记事工具', group: '科研神器与灵感' },
+      { name: 'Gen.lib.rus.ec', url: 'http://gen.lib.rus.ec/', desc: '免费图书下载资源', group: '科研神器与灵感' },
+      { name: 'EndNote样式', url: 'http://endnote.com/downloads/styles', desc: 'EndNote文献管理样式下载', group: '科研神器与灵感' },
       { name: '国家重点研发计划', url: 'https://service.most.gov.cn/', desc: '国家重点研发计划申报平台', group: '基金与项目' },
       { name: '国家自然科学基金', url: 'https://isisn.nsfc.gov.cn/', desc: '自然科学基金申报与管理', group: '基金与项目' },
       { name: '科技部', url: 'https://www.most.gov.cn/', desc: '科技政策与项目申报信息', group: '基金与项目' },
       { name: '博士后基金', url: 'http://jj.chinapostdoctor.org.cn/', desc: '博士后科研项目基金', group: '基金与项目' },
       { name: '湖北省科技厅', url: 'https://kjt.hubei.gov.cn/', desc: '湖北省地方科研基金信息', group: '基金与项目' },
       { name: '武汉市科技局', url: 'http://kjj.wuhan.gov.cn/', desc: '武汉市科技计划与项目', group: '基金与项目' },
+      { name: '淘宝网', url: 'http://www.taobao.com/', desc: '淘宝购物平台', group: '常用工具' },
+      { name: '京东商城', url: 'http://www.jd.com/', desc: '京东电商平台', group: '常用工具' },
+      { name: '12306火车票', url: 'http://www.12306.cn/mormhweb/', desc: '中国铁路客户服务中心', group: '常用工具' },
+      { name: '小众软件', url: 'https://www.appinn.com/', desc: '软件推荐与下载平台', group: '常用工具' },
       { name: 'LinkedIn', url: 'https://www.linkedin.com', desc: '全球职业发展与人脉网络平台', group: '职业发展' },
+      { name: '大街网', url: 'https://www.dajie.com/', desc: '大街网招聘平台', group: '职业发展' },
       { name: '高校人才网', url: 'https://www.gaoxiaojob.com', desc: '高校与科研院所招聘信息', group: '职业发展' },
-      { name: '前程无忧', url: 'https://www.51job.com', desc: '国内招聘与职位搜索', group: '职业发展' }
+      { name: '前程无忧', url: 'https://www.51job.com', desc: '国内招聘与职位搜索', group: '职业发展' },
+      { name: '硕博在线', url: 'http://www.gxzpw.org/', desc: '硕博研究生就业平台', group: '职业发展' },
+      { name: '高层人才网', url: 'http://www.gccrcw.com/', desc: '高层人才招聘平台', group: '职业发展' },
+      { name: '留学网', url: 'http://www.liuxue.net/', desc: '留学信息与申请平台', group: '职业发展' },
+      { name: '博士人才网', url: 'http://www.91boshi.net/', desc: '博士人才招聘平台', group: '职业发展' },
+      { name: '硕博人才网', url: 'http://www.shuobo114.com/', desc: '硕博人才招聘信息', group: '职业发展' },
+      { name: '硕博招聘网', url: 'http://www.shuobozhaopin.com/', desc: '硕博职位招聘平台', group: '职业发展' },
+      { name: '硕博英才网', url: 'http://www.shuobojob.com/', desc: '硕博英才招聘平台', group: '职业发展' },
+      { name: '猎聘网', url: 'https://www.liepin.com/?mscid=s_00_pz1', desc: '高端人才招聘平台', group: '职业发展' }
     ]
   }
 ]

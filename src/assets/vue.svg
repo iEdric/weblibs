@@ -1,1 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="37.07" height="36" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 198"><path fill="#41B883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0h47.36Z"></path><path fill="#41B883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0H0Z"></path><path fill="#35495E" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0H50.56Z"></path></svg>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="laserGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0.8"/>
+    </linearGradient>
+    <radialGradient id="plasmaGradient" cx="85" cy="50" r="20">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.9"/>
+      <stop offset="30%" style="stop-color:#f59e0b;stop-opacity:0.7"/>
+      <stop offset="60%" style="stop-color:#ef4444;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="rgba(59, 130, 246, 0.1)" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+
+  <!-- 激光束 -->
+  <line x1="15" y1="50" x2="75" y2="50" stroke="url(#laserGradient)" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="stroke-width" values="3;4;3" dur="2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- 激光束头部 -->
+  <polygon points="75,45 85,50 75,55" fill="url(#laserGradient)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;2,0;0,0" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- 击穿产生的等离子体光谱 -->
+  <g transform="translate(75,50)">
+    <!-- 主光谱线 -->
+    <line x1="0" y1="0" x2="15" y2="-8" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <line x1="0" y1="0" x2="18" y2="-4" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="0" y1="0" x2="12" y2="0" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <line x1="0" y1="0" x2="16" y2="3" stroke="#ec4899" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="0" y1="0" x2="14" y2="7" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 次级光谱线 -->
+    <line x1="0" y1="0" x2="10" y2="-12" stroke="#fbbf24" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <line x1="0" y1="0" x2="13" y2="-9" stroke="#f59e0b" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <line x1="0" y1="0" x2="9" y2="2" stroke="#ef4444" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <line x1="0" y1="0" x2="11" y2="5" stroke="#ec4899" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <line x1="0" y1="0" x2="8" y2="9" stroke="#8b5cf6" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- 等离子体发光球 -->
+  <circle cx="75" cy="50" r="6" fill="url(#plasmaGradient)">
+    <animate attributeName="r" values="6;8;6" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 外围光晕效果 -->
+  <circle cx="75" cy="50" r="12" fill="none" stroke="rgba(251, 191, 36, 0.2)" stroke-width="1">
+    <animate attributeName="r" values="12;18;12" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.1;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -51,7 +51,7 @@ import LinkSections from './components/LinkSections.vue'
   padding-top: 1rem;
   border-top: 1px solid rgba(30, 64, 175, 0.6);
   font-size: 0.8rem;
-  color: #6b7280;
+  color: #d1d5db;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
@@ -61,6 +61,6 @@ import LinkSections from './components/LinkSections.vue'
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: #4b5563;
+  color: #9ca3af;
 }
 </style>

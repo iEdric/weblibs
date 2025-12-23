@@ -52,11 +52,13 @@
 .hero-text h2 {
   font-size: 2rem;
   line-height: 1.1;
+  color: #f8fafc;
+  font-weight: 600;
 }
 
 .hero-desc {
   font-size: 0.95rem;
-  color: #9ca3af;
+  color: #cbd5e1;
   max-width: 32rem;
 }
 
@@ -145,7 +147,7 @@
 
 .hero-card-desc {
   font-size: 0.9rem;
-  color: #e5e7eb;
+  color: #f1f5f9;
 }
 
 @media (max-width: 900px) {

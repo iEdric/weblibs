@@ -55,11 +55,13 @@
   font-size: 1.5rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: #f8fafc;
+  font-weight: 600;
 }
 
 .site-subtitle {
   font-size: 0.9rem;
-  color: rgba(148, 163, 184, 0.95);
+  color: #cbd5e1;
   max-width: 36rem;
 }
 

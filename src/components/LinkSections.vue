@@ -95,7 +95,7 @@ const groupByTag = (links: Link[]) => {
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #9ca3af;
+  color: #cbd5e1;
   margin-bottom: 0.45rem;
 }
 
@@ -128,7 +128,7 @@ const groupByTag = (links: Link[]) => {
 
 .grid-subtitle {
   font-size: 0.85rem;
-  color: #9ca3af;
+  color: #cbd5e1;
 }
 
 .link-grid {
@@ -187,7 +187,7 @@ const groupByTag = (links: Link[]) => {
 
 .link-desc {
   font-size: 0.8rem;
-  color: #9ca3af;
+  color: #cbd5e1;
 }
 
 .link-arrow {
